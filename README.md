@@ -1,7 +1,7 @@
 # init.neovim
-My personal and sort of reasonable (maybe) defaults for [neovim](https://neovim.io).
+My personal and sort of reasonable (maybe) defaults for [Neovim](https://neovim.io).
 
-With *neovim*, the list of "must set" settings got a bit shorter, for different reasons. But there is still a bunch of them that most people will set when they create a new init file. These are the most generic settings (in my opinion) taken out of my personal *init.vim*.
+With *Neovim*, the list of "must set" settings got a bit shorter, for different reasons. But there is still a bunch of them that most people will set when they create a new init file. These are the most generic settings (in my opinion) taken out of my personal *init.vim*.
 The goal isn't to be a complete starter config, but to separate the generic settings from the more personal and experimental stuff that we put in our configs.
 
 
