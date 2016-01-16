@@ -14,7 +14,7 @@ If you agree with this, feel free to use it. If not, feel free to comment.
 ## Plugin
 I wanted to be able to pull this in on any setup with [vim-plug](https://github.com/junegunn/vim-plug). If I'm the only one, so be it...
 
-```
+```vim
 call plug#begin('~/.config/nvim/plugged')
   Plug 'bwot/init.neovim'
 call plug#end()
