@@ -1,7 +1,7 @@
 " init.vim:   Neovim defaults that possibly only I agree with.
 "             Inspired by tpope/vim-sensible and sheerun/vimrc
 " Maintainer: Tobias Åberg <me@towb.xyz>
-" Version:    0.5
+" Version:    0.6
 
 
 if exists("g:loaded_initvim") || !has('nvim')
@@ -22,6 +22,11 @@ set cursorline
 set hidden
 " Disable another annoying message. Don't forget to save your work often!
 set noswapfile
+
+" Prevents lag when moving around and scrolling in vim. Disable with
+" `nolazyredraw` if you have problems with vims graphics not being updated
+" correctly
+set lazyredraw
 
 " Show relative line numbers and show actual line number on current line
 set relativenumber number
