@@ -33,4 +33,5 @@ If you agree with this, feel free to use it. If not, feel free to comment.
 
 
 #### Version
+- 0.6 - Improved - Still room for more!
 - 0.5 - Room for improvements!
