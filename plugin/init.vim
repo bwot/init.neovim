@@ -1,7 +1,7 @@
 " init.vim:   Neovim defaults that possibly only I agree with.
 "             Inspired by tpope/vim-sensible and sheerun/vimrc
 " Maintainer: Tobias Åberg <me@towb.xyz>
-" Version:    0.6.1
+" Version:    0.7
 
 
 if exists("g:loaded_initvim") || !has('nvim')
@@ -10,6 +10,12 @@ else
   let g:loaded_initvim = 1
 end
 
+
+" Enable true color if supported by version
+" Neovim >= 0.1.5
+if (has("termguicolors"))
+  set termguicolors
+endif
 
 " Hi! :)
 syntax enable
